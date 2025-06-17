@@ -1,0 +1,87 @@
+{
+  "tabla": "registro_vacunas",
+  "campos": [
+    {
+      "nombre": "nombre_apellidos",
+      "tipo": "cadena",
+      "longitud": 100,
+      "requerido": true,
+      "descripcion_es": "Nombre completo y apellidos de la persona vacunada."
+    },
+    {
+      "nombre": "documento_identidad",
+      "tipo": "cadena",
+      "longitud": 20,
+      "requerido": true,
+      "descripcion_es": "Documento de identidad: DNI, NIE o pasaporte."
+    },
+    {
+      "nombre": "edad",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion_es": "Edad de la persona en el momento de la vacunación."
+    },
+    {
+      "nombre": "sexo",
+      "tipo": "cadena",
+      "longitud": 10,
+      "requerido": true,
+      "descripcion_es": "Sexo de la persona: masculino, femenino u otro."
+    },
+    {
+      "nombre": "fecha_administracion",
+      "tipo": "fecha",
+      "requerido": true,
+      "descripcion_es": "Fecha en la que se administró la vacuna."
+    },
+    {
+      "nombre": "nombre_vacuna",
+      "tipo": "cadena",
+      "longitud": 100,
+      "requerido": true,
+      "descripcion_es": "Nombre comercial de la vacuna administrada."
+    },
+    {
+      "nombre": "codigo_vacuna",
+      "tipo": "cadena",
+      "longitud": 20,
+      "requerido": true,
+      "descripcion_es": "Código estándar asociado a la vacuna administrada."
+    },
+    {
+      "nombre": "lote_vacuna",
+      "tipo": "cadena",
+      "longitud": 30,
+      "requerido": true,
+      "descripcion_es": "Código de lote de la vacuna utilizada."
+    },
+    {
+      "nombre": "tipo_dosis",
+      "tipo": "cadena",
+      "longitud": 20,
+      "requerido": true,
+      "descripcion_es": "Tipo de dosis administrada: primera, segunda, refuerzo, etc."
+    },
+    {
+      "nombre": "codigo_farmacia",
+      "tipo": "cadena",
+      "longitud": 15,
+      "requerido": true,
+      "descripcion_es": "Código de la farmacia o centro donde se administró la vacuna."
+    },
+    {
+      "nombre": "id_profesional",
+      "tipo": "cadena",
+      "longitud": 20,
+      "requerido": true,
+      "descripcion_es": "Identificador del profesional sanitario que administró la vacuna."
+    },
+    {
+      "nombre": "observaciones_medicas",
+      "tipo": "cadena",
+      "longitud": 255,
+      "requerido": false,
+      "descripcion_es": "Observaciones médicas relacionadas con la administración: reacciones, incidencias, etc."
+    }
+  ]
+}

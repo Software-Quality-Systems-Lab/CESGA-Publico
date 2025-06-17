@@ -1,0 +1,85 @@
+{
+  "tabla": "dispensacion_medicamentos",
+  "campos": [
+    {
+      "nombre": "codigo_nacional",
+      "tipo": "cadena",
+      "longitud": 20,
+      "requerido": true,
+      "descripcion_es": "Código nacional del medicamento dispensado."
+    },
+    {
+      "nombre": "nombre_comercial",
+      "tipo": "cadena",
+      "longitud": 100,
+      "requerido": true,
+      "descripcion_es": "Nombre comercial del medicamento."
+    },
+    {
+      "nombre": "principio_activo",
+      "tipo": "cadena",
+      "longitud": 100,
+      "requerido": true,
+      "descripcion_es": "Sustancia activa principal del medicamento."
+    },
+    {
+      "nombre": "forma_farmaceutica",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion_es": "Forma farmacéutica del medicamento: comprimido, jarabe, etc."
+    },
+    {
+      "nombre": "dosis_unitaria",
+      "tipo": "cadena",
+      "longitud": 30,
+      "requerido": true,
+      "descripcion_es": "Cantidad de principio activo por unidad de dosis (ej: 500 mg)."
+    },
+    {
+      "nombre": "cantidad_dispensada",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion_es": "Número de unidades dispensadas del medicamento."
+    },
+    {
+      "nombre": "fecha_hora_dispensacion",
+      "tipo": "fecha_hora",
+      "requerido": true,
+      "descripcion_es": "Fecha y hora en la que se realizó la dispensación."
+    },
+    {
+      "nombre": "requiere_receta",
+      "tipo": "booleano",
+      "requerido": true,
+      "descripcion_es": "Indica si el medicamento requiere receta médica (sí/no)."
+    },
+    {
+      "nombre": "dispensacion_receta_electronica",
+      "tipo": "booleano",
+      "requerido": true,
+      "descripcion_es": "Indica si la dispensación se realizó con receta electrónica."
+    },
+    {
+      "nombre": "id_prescriptor",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion_es": "Identificador anonimizado del profesional prescriptor."
+    },
+    {
+      "nombre": "id_paciente",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion_es": "Identificador anonimizado del paciente."
+    },
+    {
+      "nombre": "canal_dispensacion",
+      "tipo": "cadena",
+      "longitud": 30,
+      "requerido": true,
+      "descripcion_es": "Canal de dispensación: presencial, a domicilio, etc."
+    }
+  ]
+}

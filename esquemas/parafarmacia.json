@@ -1,0 +1,44 @@
+{
+  "tabla": "ventas_productos",
+  "campos": [
+    {
+      "nombre": "tipo_producto",
+      "tipo": "cadena",
+      "longitud": 50,
+      "requerido": true,
+      "descripcion_es": "Categoría o tipo de producto vendido (ej. alimentación, higiene, etc.)."
+    },
+    {
+      "nombre": "marca_fabricante",
+      "tipo": "cadena",
+      "longitud": 100,
+      "requerido": true,
+      "descripcion_es": "Nombre de la marca o fabricante del producto."
+    },
+    {
+      "nombre": "codigo_producto",
+      "tipo": "cadena",
+      "longitud": 30,
+      "requerido": true,
+      "descripcion_es": "Código único del producto en el sistema de ventas."
+    },
+    {
+      "nombre": "cantidad_vendida",
+      "tipo": "entero",
+      "requerido": true,
+      "descripcion_es": "Número de unidades vendidas del producto."
+    },
+    {
+      "nombre": "precio_unitario",
+      "tipo": "decimal",
+      "requerido": true,
+      "descripcion_es": "Precio por unidad del producto en euros."
+    },
+    {
+      "nombre": "fecha_venta",
+      "tipo": "fecha",
+      "requerido": true,
+      "descripcion_es": "Fecha en la que se realizó la venta."
+    }
+  ]
+}
