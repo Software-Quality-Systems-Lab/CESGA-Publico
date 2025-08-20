@@ -1,4 +1,4 @@
-Código Nacional del medicamento;Nombre Comercial;Principio Activo;Forma farmaceútica;Dosis Unitaria;Cantidad Dispensada;Fecha y hora de la dispensación;Requiere Receta;Dispensación con receta electrónica;ID del prescriptor;ID del paciente;Canal de Dispensación (presencial, a domicilio)
+Codigo Nacional del medicamento;Nombre Comercial;Principio Activo;Forma farmaceutica;Dosis Unitaria;Cantidad Dispensada;Fecha y hora de la dispensacion;Requiere Receta;Dispensacion con receta electronica;ID del prescriptor;ID del paciente;Canal de Dispensacion (presencial, a domicilio)
 90387;PERAMPANEL CINFA 2 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG;PERAMPANEL;Inyectable;1;10;09/06/2025;SI;SI;12;12;A DOMICILIO
 90390;APIXABAN ALTER GENERICOS 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG;APIXABAN;Comprimido;1;20;09/06/2025;SI;NO;20;1;A DOMICILIO
 90386;PERAMPANEL CINFA 8 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG;PERAMPANEL;Comprimido;1;30;09/06/2025;SI;NO;23;1;A DOMICILIO
