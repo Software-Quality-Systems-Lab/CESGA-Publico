@@ -1,4 +1,4 @@
-Nombre;Apellidos;DNI/NIE/Pasaporte;Edad;Sexo;Fecha de administración;Nombre de la Vacuna;Código de la Vacuna;Lote de la Vacuna;Dosis;Lugar de administración;Profesional que administra: ID del Profesional;Observaciobes
+Nombre;Apellidos;DNI/NIE/Pasaporte;Edad;Sexo;Fecha de administracion;Nombre de la Vacuna;Codigo de la Vacuna;Lote de la Vacuna;Dosis;Lugar de administracion;Profesional que administra: ID del Profesional;Observaciones
 Susana;Susana 1;34;20;M;09/06/2025;"Pfizer/BioNTech    
 COMINARTY";1;1;1;Farmacia;234;Ninguna
 Susana;Susana 1;34;34;M;09/06/2025;Moderna;2;1;2;Farmacia;234;Ninguna
